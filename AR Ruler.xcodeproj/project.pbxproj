@@ -13,6 +13,17 @@
 		3217F04220EE892500AAF315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3217F04020EE892500AAF315 /* Main.storyboard */; };
 		3217F04420EE892700AAF315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3217F04320EE892700AAF315 /* Assets.xcassets */; };
 		3217F04720EE892700AAF315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3217F04520EE892700AAF315 /* LaunchScreen.storyboard */; };
+		3217F04F20FD44EE00AAF315 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3217F04E20FD44EE00AAF315 /* GoogleService-Info.plist */; };
+		3217F05320FD542300AAF315 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F05220FD542300AAF315 /* MainViewController.swift */; };
+		3217F05C20FEA46700AAF315 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F05A20FEA46700AAF315 /* TableViewCell.swift */; };
+		3217F05D20FEA46700AAF315 /* nameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3217F05B20FEA46700AAF315 /* nameCell.xib */; };
+		3217F05F20FFB6A400AAF315 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F05E20FFB6A400AAF315 /* Name.swift */; };
+		3239412E226A46C200DB4CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3239412D226A46C200DB4CF1 /* Assets.xcassets */; };
+		32AB44B622371B570016FEFF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 32AB44B522371B570016FEFF /* Inceptionv3.mlmodel */; };
+		32AB44B82242C3280016FEFF /* HypothyroidismModel_134018882.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 32AB44B72242C3280016FEFF /* HypothyroidismModel_134018882.mlmodel */; };
+		32AB44BC2253EE470016FEFF /* DefaultCustomModel_547516054.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 32AB44BB2253EE470016FEFF /* DefaultCustomModel_547516054.mlmodel */; };
+		32DC56D421028A4E00B6AD82 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DC56D321028A4E00B6AD82 /* ThirdViewController.swift */; };
+		5B2BFB759AEC9E9DB8F3DFCD /* Pods_AR_Ruler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B15BA33F8876D9D0BF8B69 /* Pods_AR_Ruler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,19 @@
 		3217F04320EE892700AAF315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3217F04620EE892700AAF315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3217F04820EE892700AAF315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3217F04E20FD44EE00AAF315 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3217F05220FD542300AAF315 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3217F05A20FEA46700AAF315 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3217F05B20FEA46700AAF315 /* nameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = nameCell.xib; sourceTree = "<group>"; };
+		3217F05E20FFB6A400AAF315 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		3239412D226A46C200DB4CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		32AB44B522371B570016FEFF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		32AB44B72242C3280016FEFF /* HypothyroidismModel_134018882.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HypothyroidismModel_134018882.mlmodel; sourceTree = "<group>"; };
+		32AB44BB2253EE470016FEFF /* DefaultCustomModel_547516054.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DefaultCustomModel_547516054.mlmodel; sourceTree = "<group>"; };
+		32DC56D321028A4E00B6AD82 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		34129F1D8D61873A15D53A41 /* Pods-AR Ruler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Ruler.release.xcconfig"; path = "Pods/Target Support Files/Pods-AR Ruler/Pods-AR Ruler.release.xcconfig"; sourceTree = "<group>"; };
+		8CBB27C938A2CEE270A29F31 /* Pods-AR Ruler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Ruler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AR Ruler/Pods-AR Ruler.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B15BA33F8876D9D0BF8B69 /* Pods_AR_Ruler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Ruler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2BFB759AEC9E9DB8F3DFCD /* Pods_AR_Ruler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0535E2878C79DC0B3D85B295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0B15BA33F8876D9D0BF8B69 /* Pods_AR_Ruler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3217F02E20EE892500AAF315 = {
 			isa = PBXGroup;
 			children = (
 				3217F03920EE892500AAF315 /* AR Ruler */,
 				3217F03820EE892500AAF315 /* Products */,
+				AEC418B9814BE2ECDAC59CFD /* Pods */,
+				0535E2878C79DC0B3D85B295 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +93,32 @@
 			children = (
 				3217F03A20EE892500AAF315 /* AppDelegate.swift */,
 				3217F03C20EE892500AAF315 /* art.scnassets */,
+				3217F05220FD542300AAF315 /* MainViewController.swift */,
 				3217F03E20EE892500AAF315 /* ViewController.swift */,
+				32DC56D321028A4E00B6AD82 /* ThirdViewController.swift */,
 				3217F04020EE892500AAF315 /* Main.storyboard */,
 				3217F04320EE892700AAF315 /* Assets.xcassets */,
+				3239412D226A46C200DB4CF1 /* Assets.xcassets */,
 				3217F04520EE892700AAF315 /* LaunchScreen.storyboard */,
 				3217F04820EE892700AAF315 /* Info.plist */,
+				3217F04E20FD44EE00AAF315 /* GoogleService-Info.plist */,
+				3217F05A20FEA46700AAF315 /* TableViewCell.swift */,
+				3217F05B20FEA46700AAF315 /* nameCell.xib */,
+				3217F05E20FFB6A400AAF315 /* Name.swift */,
+				32AB44B522371B570016FEFF /* Inceptionv3.mlmodel */,
+				32AB44B72242C3280016FEFF /* HypothyroidismModel_134018882.mlmodel */,
+				32AB44BB2253EE470016FEFF /* DefaultCustomModel_547516054.mlmodel */,
 			);
 			path = "AR Ruler";
+			sourceTree = "<group>";
+		};
+		AEC418B9814BE2ECDAC59CFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB27C938A2CEE270A29F31 /* Pods-AR Ruler.debug.xcconfig */,
+				34129F1D8D61873A15D53A41 /* Pods-AR Ruler.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3217F04B20EE892700AAF315 /* Build configuration list for PBXNativeTarget "AR Ruler" */;
 			buildPhases = (
+				74BF00691FC7A38BE81973BF /* [CP] Check Pods Manifest.lock */,
 				3217F03320EE892500AAF315 /* Sources */,
 				3217F03420EE892500AAF315 /* Frameworks */,
 				3217F03520EE892500AAF315 /* Resources */,
+				95A462F118D226970610ED82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,7 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3217F03D20EE892500AAF315 /* art.scnassets in Resources */,
+				3217F05D20FEA46700AAF315 /* nameCell.xib in Resources */,
 				3217F04720EE892700AAF315 /* LaunchScreen.storyboard in Resources */,
+				3217F04F20FD44EE00AAF315 /* GoogleService-Info.plist in Resources */,
+				3239412E226A46C200DB4CF1 /* Assets.xcassets in Resources */,
 				3217F04420EE892700AAF315 /* Assets.xcassets in Resources */,
 				3217F04220EE892500AAF315 /* Main.storyboard in Resources */,
 			);
@@ -134,13 +193,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74BF00691FC7A38BE81973BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR Ruler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A462F118D226970610ED82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR Ruler/Pods-AR Ruler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonRestKit/RestKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonVisualRecognitionV3/VisualRecognition.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VisualRecognition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR Ruler/Pods-AR Ruler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3217F03320EE892500AAF315 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AB44BC2253EE470016FEFF /* DefaultCustomModel_547516054.mlmodel in Sources */,
+				3217F05320FD542300AAF315 /* MainViewController.swift in Sources */,
+				3217F05C20FEA46700AAF315 /* TableViewCell.swift in Sources */,
 				3217F03F20EE892500AAF315 /* ViewController.swift in Sources */,
 				3217F03B20EE892500AAF315 /* AppDelegate.swift in Sources */,
+				32AB44B82242C3280016FEFF /* HypothyroidismModel_134018882.mlmodel in Sources */,
+				32DC56D421028A4E00B6AD82 /* ThirdViewController.swift in Sources */,
+				3217F05F20FFB6A400AAF315 /* Name.swift in Sources */,
+				32AB44B622371B570016FEFF /* Inceptionv3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +397,13 @@
 		};
 		3217F04C20EE892700AAF315 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CBB27C938A2CEE270A29F31 /* Pods-AR Ruler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA5384293K;
 				INFOPLIST_FILE = "AR Ruler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +417,13 @@
 		};
 		3217F04D20EE892700AAF315 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34129F1D8D61873A15D53A41 /* Pods-AR Ruler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA5384293K;
 				INFOPLIST_FILE = "AR Ruler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
